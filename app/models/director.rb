@@ -11,4 +11,8 @@
 #  updated_at :datetime         not null
 #
 class Director < ApplicationRecord
+  # belongs_to(:director)
+
+  def filmography
+  end
 end
